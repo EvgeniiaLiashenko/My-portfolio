@@ -13,37 +13,38 @@
 </head>
 
 <body>
-    <header class="header ">
+    <header class="header">
         <div class="container ">
             <nav class="menu ">
-                <a class="logo " href="# ">
+                <a class="logo " href="#header">
                     <img src="images/logo.svg " alt="logo ">
                 </a>
-                <div class="header__burger " id="burger ">
-                    <span></span>
-                </div>
-
                 <ul class="menu__list ">
                     <li class="menu__items ">
-                        <a class="menu__item animation" href="#about ">
+                        <a class="menu__item animation" href="#about">
                             Про мене
                         </a>
                     </li>
                     <li class="menu__items ">
-                        <a class="menu__item animation " href="#portfolio ">
+                        <a class="menu__item animation " href="#portfolio">
                             Мої роботи 
                         </a>
                     </li>
                     <li class="menu__items ">
-                        <a class="menu__item animation " href="#contact ">
+                        <a class="menu__item animation " href="#contact">
                             Контакти
                         </a>
                     </li>
                 </ul>
-                <a class="header__link " href="# ">
+
+                <a class="header__link" href="#">
                     <img class="header__link-img " src="images/header-link.svg " alt=" ">
                 </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
         </div>
+
         </nav>
 
 
@@ -53,6 +54,7 @@
         <section class="top-presentation">
             <div class="container">
                 <div class="top-presentation__inner">
+
                     <div class="top-presentation__info">
                         <h6 class="top-presentation__info-subtitle">
                             Привіт! Я Євгенія Ляшенко
@@ -67,7 +69,7 @@
                             <a class="top-presentation__nav-phone" href="tel:+380506527485">
                                 Зв’язатись зі мною
                             </a>
-                            <a class="top-presentation__nav-works" href="#">
+                            <a class="top-presentation__nav-works" href="#portfolio">
                                 Дивитися роботи
                             </a>
                         </div>
@@ -76,13 +78,15 @@
                         <img src="images/jenia.png" alt="">
                     </div>
 
+
                 </div>
             </div>
 
 
+
             <div class="container ">
 
-                <div class="about__inner ">
+                <div class="about__inner" id="about">
                     <div class="about__inner-img ">
                         <img class="about__foto " src="images/foto.jpg" alt="фото Євгенії Ляшенко ">
                     </div>
@@ -103,7 +107,7 @@
             </div>
         </section>
 
-        <section class="portfolio " id="portfolio ">
+        <section class="portfolio " id="portfolio">
             <div class="container ">
                 <div class="portfolio__title ">
                     <h3 class="title portfolio__title ">
@@ -134,7 +138,7 @@
                 <div class="portfolio__content-inner ">
                     <ul class="portfolio__content ">
                         <li class="portfolio__content-item mix category-a ">
-                            <a class="portfolio__content-link " href="# ">
+                            <a class="portfolio__content-link " href="http://lazni.in.net">
                                 <img class="portfolio__content-img " src="images/portfolio/2 (1).jpg" alt="іконка портфоліо ">
                             </a>
                         </li>
@@ -155,7 +159,7 @@
                             </a>
                         </li>
                         <li class="portfolio__content-item mix category-a ">
-                            <a class="portfolio__content-link " href="# ">
+                            <a class="portfolio__content-link " href="http://fitnes.liashenko.pw">
                                 <img class="portfolio__content-img " src="images/portfolio/2 (5).jpg" alt="іконка портфоліо ">
                             </a>
                         </li>
@@ -166,7 +170,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="portfolio__add ">
+                <div class="portfolio__add">
                     <button class="portfolio__button " type="button ">
                     Загрузить еще
                 </button>
@@ -174,49 +178,52 @@
             </div>
         </section>
 
-
-
-        <section class="contact">
-            <div class="container">
-                <div class="contact__title">
-                    <h2 class="title">Мої контакти</h2>
+        <section class="contact" id="contact" ">
+            <div class="container ">
+                <div class="contact__title ">
+                    <h2 class="title ">
+                        Мої контакти
+                    </h2>
                 </div>
-                <div class="contact__inner">
-                    <div class="contact__info">
-                        <div class="contact__info-tel">
-                            <a class="contact__info-phone" href="tel:+380506527485">
-                        +38(050)-652-74-85
-                    </a>
-                        </div>
-                        <div class="contact__info-mail">
-                            <a class="contact__info-email" href="mailto:evgeniia.liashenko@gmail.com">
-                            evgeniia.liashenko@gmail.com
-                        </a>
-                        </div>
-                        <ul class="contact__info-social">
-                            <li class="contact__info-items">
-                                <a class="contact__info-link" href="#">
-                                    <img class="contact__info-img" src="images/icons/instagram.svg" alt="іконка інстаграму">
+                <div class="contact-inner ">
+                    <div class="contact-info ">
+                        <ul class="contact-info__links ">
+                            <li class="contact-info__links-item ">
+                                <a class="contact-info__tel " href="tel:+380506527485 ">+38(050)-652-74-85</a>
+                            </li>
+                            <li class="contact-info__links-item ">
+                                <a class="contact-info__email " href="mailto:evgeniia.liashenko@gmail.com ">evgeniia.liashenko@gmail.com</a>
+                            </li>
+                        </ul>
+
+                        <ul class="contact__list ">
+                            <li class="contact__items ">
+                                <a class="contact__items-link " href="https://instagram.com/evg_liashenko?utm_medium=copy_link ">
+                                    <img src="images/icons/instagram.svg " alt="іконка інстаграму ">
                                 </a>
                             </li>
-                            <li class="contact__info-items">
-                                <a class="contact__info-link" href="#">
-                                    <img class="contact__info-img" src="images/icons/facebook.svg" alt="ікоонка фейсбуку">
+                            <li class="contact__items ">
+                                <a class="contact__items-link " href="https://www.facebook.com/evgenia.tolstokorova.3 ">
+                                    <img src="images/icons/facebook.svg " alt="іконка фейсбуку ">
                                 </a>
                             </li>
-                            <li class="contact__info-items">
-                                <a class="contact__info-link" href="#">
-                                    <img class="contact__info-img" src="images/icons/telegram.svg" alt="іконка телеграму">
+                            <li class="contact__items ">
+                                <a class="contact__items-link " href="https://t.me/+380506527485 ">
+                                    <img src="images/icons/telegram.svg " alt="шконка телеграму ">
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="contact__images">
-                        <img src="images/bottom-picture.png" alt="">
+                    <div class="contact__images ">
+                        <img class="contact__images-img " src="images/bottom-picture.png " alt="емодзі Євгенія Ляшенко ">
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
